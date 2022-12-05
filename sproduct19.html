@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/cesiumjs/1.78/Build/Cesium/Cesium.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <section id="header">
+        <a href="#"> <img src="image/logo/E store-3.png" width="90" alt="reload" class="logo"  onclick="window.location.href='index.html';"></a>
+        
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <li><a  href="#" id="close"><i id="close" class="fa-solid fa-xmark"></i></a></li>
+            </ul>
+        </div>
+        <div id="mobile">
+            <i id="bar" class="fa-solid fa-bars"></i>
+        </div>
+    </section>
+
+<section id="pro-details" class="section-p1">
+    <div class="single-pro-img">
+        <img src="image/New Arrivals/product 11/pro11-img1.jpg" width="100%" id="main-img" alt="reload">
+        <div class="small-img-group">
+            <div class="small-img-col">
+                <img src="image/New Arrivals/product 11/pro11-img1.jpg" width="100%" class="small-img" alt="reload">
+            </div>
+            <div class="small-img-col">
+                <img src="image/New Arrivals/product 11/pro11-img2.jpg" width="100%" class="small-img" alt="reload">
+            </div>
+            <div class="small-img-col">
+                <img src="image/New Arrivals/product 11/pro11-img3.jpg" width="100%" class="small-img" alt="reload">
+            </div>
+            <div class="small-img-col">
+                <img src="image/New Arrivals/product 11/pro11-img4.jpg" width="100%" class="small-img" alt="reload">
+            </div>
+            <div class="small-img-col">
+                <img src="image/New Arrivals/product 11/pro11-img5.jpg" width="100%" class="small-img" alt="reload">
+            </div>
+        </div>
+    </div>
+
+    <div class="single-pro-details">
+        <h4>SASSAFRAS</h4>
+        <p>Women Black Ribbed T-shirt</p>
+        <h2>₹799</h2>
+        <select>
+            <option>Select Size</option>
+            <option>XL</option>
+            <option>XXL</option>
+            <option>Large</option>
+            <option>Medium</option>
+            <option>Small</option>
+        </select>
+        <input type="number" value="1">
+        <button class="normal">Add To Cart</button>
+        <h4>PRODUCT DETAILS</h4>
+        <span>Black ribbed T-shirt, has a stylised round neck, and three-quarter sleeves
+
+            Size & Fit
+            The model (height 5'8") is wearing a size S
+            
+            Material & Care
+            Material: 96% cotton, 4% lycra
+            Machine Wash
+            
+            Specifications
+            Fabric 3
+            Elastane</span>
+    </div>
+</section>
+
+<section id="product1" class="section-p1">
+    <h1>Featured Products</h1>
+    <p>Winter Collection New Design</p>
+    <div id="feature_container">
+    <div class="pro-container">
+        <div class="pro" onclick="document.location.href='sproduct1.html';">
+            <img src="image/puoducts/sweater 1/swe1-img1.jpg" alt="reload">
+            <div class="des">
+                <span>Roadster</span>
+                <h5>The Lifestyle Co Men Brown Solid Cable Knit Pullover</h5>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div id="cart">
+                    <div>
+                        <h4>₹999</h4>
+                    </div>
+                    <div>
+                    <a href="#" class="fa-solid fa-cart-shopping cart"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pro">
+            <img src="image/puoducts/sweater 2/swe2-img1.jpg" alt="reload" onclick="window.location.href='sproduct2.html';">
+            <div class="des">
+                <span>Roadster</span>
+                <h5>Men Beige & Navy Blue Striped Pullover</h5>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div id="cart">
+                    <div>
+                        <h4>₹599</h4>
+                    </div>
+                    <div>
+                    <a href="#" class="fa-solid fa-cart-shopping cart"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pro">
+            <img src="image/puoducts/sweater 3/swe3-img1.jpg" alt="reload" onclick="window.location.href='sproduct3.html';">
+            <div class="des">
+                <span>Roadster</span>
+                <h5>The Lifestyle Co Men Teal & Grey Colourblocked Pullover swaeter</h5>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div id="cart">
+                    <div>
+                        <h4>₹999</h4>
+                    </div>
+                    <div>
+                    <a href="#" class="fa-solid fa-cart-shopping cart"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pro">
+            <img src="image/puoducts/sweater 4/swe4-img1.jpg" alt="reload" onclick="window.location.href='sproduct4.html';">
+            <div class="des">
+                <span>all about you</span>
+                <h5>Women Maroon Cable Knit Pullover</h5>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div id="cart">
+                    <div>
+                        <h4>₹1319</h4>
+                    </div>
+                    <div>
+                    <a href="#" class="fa-solid fa-cart-shopping cart"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+   </div>
+
+</section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div id="news-text">
+            <h4>Sign Up for Newsletter</h4>
+            <p>Get E-main updates about our latest shop and <span>special offer.</span></p>
+        </div>
+        <div id="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div calss="col">
+            <img src="image/logo/E store-3.png" alt="reload" width="90" class="logo">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> 562 Wellington Road, Streen 32, San Francisco</p>
+            <p><strong>Phone:</strong>+01 2222 365 /(+91) 01 2345 6789</p>
+            <p><strong>Hours:</strong>10:00 - 18:00, Mon - Sat</p>
+
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+             <h4>Install App</h4>
+             <p>From App Store or Google Play</p>
+             <div id="row">
+                <img src="image/logo/play store.png" alt="reload" width="140">
+                <img src="image/logo/app store.png" alt="reload" width="140">
+             </div>
+             <p>Secure Payment Gateways</p>
+             <img src="image/logo/payment gateway.png" alt="reload" width="140">
+        </div>
+
+        <div class="copyright">
+            <p><i class="fa-regular fa-copyright"></i> 2021, tech2 etc - HTML CSS Ecommerce Template</p>
+        </div>
+    </footer>
+
+    <script src="/jquery.js"></script>
+    <script>
+        let Mimg = document.getElementById('main-img');
+        let Simg = document.getElementsByClassName('small-img');
+
+        Simg[0].onclick = function(){
+            Mimg.src = Simg[0].src;
+        }
+        Simg[1].onclick = function(){
+            Mimg.src = Simg[1].src;
+        }
+        Simg[2].onclick = function(){
+            Mimg.src = Simg[2].src;
+        }
+        Simg[3].onclick = function(){
+            Mimg.src = Simg[3].src;
+        }
+        Simg[4].onclick = function(){
+            Mimg.src = Simg[4].src;
+        }
+    </script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
